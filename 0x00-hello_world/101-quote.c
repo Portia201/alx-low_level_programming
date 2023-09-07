@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - This program makes use of fputs()
- * Description - This prgram prints to standard output
+ * Description - This program prints to standard output
  * Return: 1 (Success)
  */
 int main(void)
