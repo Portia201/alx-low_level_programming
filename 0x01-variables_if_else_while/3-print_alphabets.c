@@ -6,21 +6,18 @@
 
 int main(void)
 {
-	char c;
+	char lowercase = 'a';
+	char uppercase = 'A';
 
-	char d;
-
-	c = 'a';
-	d = 'A';
 	while 
-		(c <= 'z') {
-			putchar(c);
-			c++;
+		(lowercase <= 'z') {
+			putchar(lowercase);
+			lowercase++;
 		}
 	while
-		(d <= 'Z') {
-			putchar(d);
-			d++;
+		(uppercase <= 'Z') {
+			putchar(uppercase);
+			uppercase++;
 		}
 	putchar('\n');
 	return (0);
