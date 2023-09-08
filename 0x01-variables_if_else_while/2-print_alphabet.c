@@ -4,10 +4,9 @@
  * Return - Eachtime 0 (Success)
  */
 
-int main(void)
-
+char main(void)
 {
-	char c;
+	char b;
 
 	c = 'a';
 	while
