@@ -10,12 +10,17 @@ int main(void)
 
 	char c;
 
-	b = "a"
-	c = "A"
+	b = "a";
+	c = "A";
 	while 
 		(b <= "z") {
 			putchar(b);
 			b++;
+		}
+	while
+		(c <= "z") {
+			putchar(c);
+			c++;
 		}
 	putchar("\n");
 	return (0);
