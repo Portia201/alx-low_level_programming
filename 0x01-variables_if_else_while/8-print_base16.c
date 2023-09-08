@@ -1,7 +1,9 @@
 #include <stdio.h>
-/** main -  printing base 16
+/**
+ * main -  print base
  * Return: eachtime 0 (success)
  */
+
 int main(void)
 {
 	char i;
