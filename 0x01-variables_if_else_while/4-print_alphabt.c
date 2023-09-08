@@ -3,7 +3,6 @@
  * main - rint alphabets except q and e
  * Return: Eachtime 0 (Success)
  */
-
 int main(void)
 {
 	char d;
