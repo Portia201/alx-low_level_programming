@@ -1,7 +1,8 @@
 #include <stdio.h>
+#includ <unistd.h>
 /**
- * main - This program makes use of fputs()
- * Description - This program prints to standard output
+ * main - Entry point
+ * 
  * Return: 1 (Success)
  */
 int main(void)
