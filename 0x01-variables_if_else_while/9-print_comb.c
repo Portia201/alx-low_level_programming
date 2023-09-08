@@ -4,23 +4,18 @@
  * Return: eachtime 0 (success)
  */
 int main(void)
-{
-	char i;
-	
-	int j;
+	{
+	int i;
 
-	i = 'a';
-	j = 0;
-	while
-		(j < 10) {
-			putchar(j + '0');
-			j++;
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+		if (i < 9)
+		{
+			putchar(',');
+			putchar(',');
 		}
-	while
-		(i <= 'f') {
-			putchar(i);
-			i++;
-		}
+	}
 	putchar('\n');
 	return (0);
-}
+	}
