@@ -1,16 +1,19 @@
 #include <stdio.h>
 /**
- * main - Printing alphabetics except q and e
- * Return - Eachtime 0 (Success)
+ * main - rint alphabets except q and e
+ * Return: Eachtime 0 (Success)
  */
 
 int main(void)
 {
 	char n = 'a';
 
-	while (n <= 'z')
+	while (n <= "z")
 	{
+		if (n != 'e' && n != 'q')
+		{
 		putchar(n);
+		}
 		n++;
 	}
 	putchar('\n');
