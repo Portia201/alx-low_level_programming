@@ -1,21 +1,29 @@
 #include <stdio.h>
 /**
- * main - printing comb
- * Return: eachtime 0 (success)
+ * main - printing all possible different numbers
+ * Return: Eachtime 0
  */
 int main(void)
-	{
-	int n;
+{
+	int ones = '0';
+	int tens = '0';
 
-	for (n = 0; n < 10; n++)
+	for (tens = '0'; tens <= '9'; tens++)
 	{
-		putchar(n + '0');
-		if (n < 9)
+		for (ones = '0'; ones <= '9'; ones++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (!((ones == tens) || (tens > ones)))
+			{
+				putchar(tens);
+				putchar(ones);
+				if (!(ones == '9' && tens == '8'))
+				{
+					putchar(',')
+					putchar(' ')
+				}
+			}
 		}
 	}
 	putchar('\n');
 	return (0);
-	}
+}
