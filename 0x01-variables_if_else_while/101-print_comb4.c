@@ -4,37 +4,37 @@
  * main -  prints all possible different combinations of three digits
  * Return: Eachtime 0 (success)
  */
-int mai(void)
+int main(void)
 {
-	int m = '0';
-	int n = '0';
-	int o = '0';
+	int j = '0';
+	int k = '0';
+	int l = '0';
 
-	while (m <= '7')
+	while (j <= '7')
 	{
-		while (n <= '8')
+		while (k <= '8')
 		{
-			while (o <= '9')
+			while (l <= '9')
 			{
-				if (m < n && n < o)
+				if (j < k && k < l)
 				{
-					putchar(m);
-					putchar(n);
-					putchar(o);
-					if (!(m == '7' && n == '8' && o == '9'))
+					putchar(j);
+					putchar(k);
+					putchar(l);
+					if (!(j == '7' && k == '8' && l == '9'))
 					{
 						putchar(',');
 						putchar(' ');
 					}
-					o++;
 				}
-				o = '0';
-				n++;
+				l++;
 			}
-			n = '0';
-			m++;
+			l = '0';
+			k++;
 		}
-		putchar('\n');
-		return (0);
+		k = '0';
+		j++;
 	}
+	putchar('\n');
+	return (0);
 }
