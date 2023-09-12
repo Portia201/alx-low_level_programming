@@ -5,8 +5,7 @@
  * Return: ...
  */
 void jack_bauer(void)
-{
-	
+{	
 	int e, f, g, h;
 	
 	for (e = 0; e <= 2; e++)
