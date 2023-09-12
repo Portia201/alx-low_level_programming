@@ -14,7 +14,7 @@ int main(void)
 	b = 2;
 	sum = 0;
 
-	for (a = 1; a <= 33; ++a)
+	for (m = 1; m <= 33; ++a)
 	{
 		if (a < 4000000 && (a % 2) == 0)
 		{
