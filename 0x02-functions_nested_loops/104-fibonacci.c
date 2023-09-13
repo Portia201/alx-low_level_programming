@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 98 Fibonacci numbers
+ * main - prints 98 Fibonacci numbers
  * Purpose - no handcode
  * Return: return 0
  */
@@ -11,13 +11,11 @@ int main(void)
 	unsigned int k;
 	unsigned long int bef = 1;
 	unsigned long int aft = 2;
-	unsigned long int l = 1000000000;
+	unsigned long int l = 10000000000;
 	unsigned long int bef1;
 	unsigned long int bef2;
 	unsigned long int aft1;
 	unsigned long int aft2;
-
-	printf("%lu", bef);
 	
 	for (k = 1; k < 81; k++);
 	{
