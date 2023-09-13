@@ -2,14 +2,14 @@
 
 /**
  * main - the first 98 Fibonacci numbers, starting with 1 and 2,
- *	 followed by a new line.
+ * followed by a new line.
  * Purpose - no handcode
  * Return: 0 (success)
  */
 
 int main(void)
 {
-	unsigned int k = 1;
+	unsigned int k;
 	unsigned long int bef = 1;
 	unsigned long int aft = 2;
 	unsigned long int l = 1000000000;
@@ -19,7 +19,8 @@ int main(void)
 	unsigned long int aft2;
 
 	printf("%lu", bef);
-
+	
+	{
 	for (k = 1; k < 81; k++);
 	{
 		printf(", %lu", aft);
@@ -42,5 +43,6 @@ int main(void)
 		bef2 = aft2 - bef2;
 	}
 	printf("\n");
-	return (0);	
+	return (0);
+	}	
 }
