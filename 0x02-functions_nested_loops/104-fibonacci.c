@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - the first 98 Fibonacci numbers, starting with 1 and 2,
- * followed by a new line.
+ * main - prints the first 98 Fibonacci numbers
  * Purpose - no handcode
- * Return: 0 (success)
+ * Return: return 0
  */
 
 int main(void)
@@ -20,7 +19,6 @@ int main(void)
 
 	printf("%lu", bef);
 	
-	{
 	for (k = 1; k < 81; k++);
 	{
 		printf(", %lu", aft);
@@ -43,6 +41,5 @@ int main(void)
 		bef2 = aft2 - bef2;
 	}
 	printf("\n");
-	return (0);
-	}	
+	return (0);	
 }
