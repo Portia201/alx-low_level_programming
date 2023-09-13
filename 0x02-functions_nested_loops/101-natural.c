@@ -6,8 +6,9 @@
 #include <stdio.h>
 
 /**
- * main - Lists all the natural numbers below 1024 (excluded)
- * 	that are multiples of 3 or 5.
+ * main - prints the sum of all the multiples of 3 or 5 below 1024 (excluded),
+ * followed by a new line.
+ * Return: Always 0
  */
 int main(void)
 {
@@ -19,6 +20,5 @@ int main(void)
 			sum += m;
 	}
 	printf("%d\n", sum);
-
 	return (0);
 }
