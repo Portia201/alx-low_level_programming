@@ -2,9 +2,9 @@
 
 /**
  * main - the first 98 Fibonacci numbers, starting with 1 and 2,
- * followed by a new line.
+ * 	followed by a new line.
  * Purpose - no handcode
- * Return: (success)
+ * Return: 0 (success)
  */
 
 int main(void)
