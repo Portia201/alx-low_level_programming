@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	unsigned int k;
+	unsigned int k = 1;
 	unsigned long int bef = 1;
 	unsigned long int aft = 2;
 	unsigned long int l = 1000000000;
