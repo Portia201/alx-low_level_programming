@@ -1,8 +1,8 @@
 #include "main.h"
 
  /**
- * _isdigits - This checks wether a character is a digit or not
- * @c: character being looked at
+ * _isdigits - function that confirms if a character is a digit or not
+ * @c: Character is to be looked at
  * Return: returns 1 if it is uppercase , 0 if not
  */
 
