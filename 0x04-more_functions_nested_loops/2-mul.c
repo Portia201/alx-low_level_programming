@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * mu1 - multiplies two integers
- * @a: - The first integer
- * @b: - The second integer
+ * mul - multiplies two integers
+ * @a: The first integer
+ * @b: The second integer
  * Return: Eachtime 0
  */
 
