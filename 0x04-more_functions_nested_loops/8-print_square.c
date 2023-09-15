@@ -3,23 +3,24 @@
 /**
  * print_square - prints squares
  * @size: size of the square
- *
  * Return: void
  */
-
 void print_square(int size)
 {
-int i, j;
-if (size <= 0)
-_putchar('\n');
+int hash1, hash2;
+if (size > 0)
 {
-for (i = 0; i < size; i++);
+for (hash1 = 0; hash1 < size; hash1++)
 {
-for (j = 0; j < (size); j++);
-{
+for (hash2 = 0; hash2 < (size - 1); hash2++)
 _putchar('#');
-}
+
+_putchar('#');
 _putchar('\n');
 }
+}
+else
+{
+_putchar('\n');
 }
 }
