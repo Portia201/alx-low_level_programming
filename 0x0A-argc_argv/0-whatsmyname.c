@@ -6,7 +6,7 @@
  * @argv: arguments passed to a programm
  * Return: Eachtime 0 success
  */
-int main(int argc _atribute_((unused)), char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
 	return (0);
