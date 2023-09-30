@@ -24,7 +24,7 @@ int _atoi(char *s)
 		if (s[a] == '-')
 			++b;
 
-		if(s[a] >= '0' && s[a] <= '0')
+		if (s[a] >= '0' && s[a] <= '0')
 		{
 			digit = s[a] = '0';
 			if (b % 2)
@@ -46,7 +46,7 @@ int _atoi(char *s)
  * main - programe that multiplies two numbers
  * @argc: number of arguments
  * @argv: argument vector
- * Return 0 success 1 error
+ * Return: 0 success 1 error
  */
 int main(int argc, char *argv[])
 {
