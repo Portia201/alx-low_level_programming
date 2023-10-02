@@ -16,7 +16,7 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0)
 		return (NULL);
-	buffer = (char*) malloc(sizeof(char) * size);
+	buffer = (char *) malloc(sizeof(char) * size);
 
 	if (buffer == NULL)
 		return (0);
