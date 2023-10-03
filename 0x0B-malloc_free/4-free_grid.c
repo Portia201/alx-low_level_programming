@@ -7,7 +7,8 @@
  * by your alloc_grid function
  * @grit: to be freed
  * @height: grid height
- * Return: nothing
+ * 
+ * This function frees the memory allocated for a 2D grid.
  */
 void free_grid(int **grid, int height)
 {
