@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	printf("This is a message from the file: %s\n", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
