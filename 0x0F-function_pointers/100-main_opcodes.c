@@ -34,10 +34,10 @@ int main(int argc, char *argv[])
 
 		if (m == bytes - 1)
 		{
-			printf("%2hhx", arr[m]);
+			printf("%2hhx\n", arr[m]);
 			break;
 		}
 		printf("%2hhx", arr[m]);
 	}
-	return(0);
+	return (0);
 }
