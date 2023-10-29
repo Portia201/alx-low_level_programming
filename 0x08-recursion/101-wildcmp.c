@@ -5,11 +5,10 @@ int bandersnatch(char *s1, char *s2);
 char *move(char *s2);
 
 /**
- * wildcmp - compares two strings
- * checking for wildcards expansions
+ * wildcmp - compares two strings checking for wildcards expansions
  * @s1: first string to compare
  * @s2: second string compared
- * Returns: 1 if the strings can be considered
+ * Return: 1 if the strings can be considered
  * identical, otherwise return 0.
  */
 int wildcmp(char *s1, char *s2)
@@ -18,12 +17,10 @@ int wildcmp(char *s1, char *s2)
 	 * this is going to be sum of return values
 	 */
 	int sum = 0;
-	
 	/**
 	 * if we going to reach the end of s1 and yhe char in s2 is a *
 	 * and if the next chars of s2 are *, return 1
 	 */
-	
 	if (*s1 == '\0' && *s2 == '*' && !*move(s2))
 		return (1);
 
@@ -32,18 +29,17 @@ int wildcmp(char *s1, char *s2)
 	 * if we reached the end of s1, return 1
 	 * else increment s1 and s2 by 1
 	 */
-	
 	if (*s1 == *s2)
 	{
 		if (*s1 == '\0')
 			return (1);
 		return (wildcmp(s1 + 1, s2 + 1));
 	}
+
 	/**
 	 * if we reached the end of both strings,
 	 * return 0
 	 */
-	
 	if (*s1 == '\0' || *s2 == '\0')
 		return (0);
 
@@ -74,7 +70,8 @@ int wildcmp(char *s1, char *s2)
 	 * the characters are equal
 	 * @s1: first string
 	 * @s2: secomd string
-	 * Return: value of wildcmp() or itself
+	 *
+	 * Return: value of wildcmp() or of itself
 	 */
 	int bandersnatch(char *s1, char *s2)
 	{
@@ -91,9 +88,9 @@ int wildcmp(char *s1, char *s2)
 	}
 
 	/**
-	 * move - moves the current char past the *
+	 * *move - moves the current char past the *
 	 * @s: string to iterate over
-	 * Return: tje address of the charater after the *
+	 * Return: the address of the charater after the *
 	 */
 	char *move(char *s2)
 	{
@@ -104,7 +101,10 @@ int wildcmp(char *s1, char *s2)
 		 * the first char past all *
 		 */
 		if (*s2 == '*')
-			return(move(s2 +1));
+
+			return (move(s2 + 1));
+
 		else
+
 			return (s2);
 	}
