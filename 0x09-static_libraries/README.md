@@ -1,1 +1,1 @@
-0x09-static_libraries
+this is for static library task
