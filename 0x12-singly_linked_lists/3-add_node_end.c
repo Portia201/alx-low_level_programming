@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <string.h>
+#include <stdlib.h>
 
 /**
  * add_node_end - Adds a new node at the end
@@ -37,5 +38,5 @@ list_t *add_node_end(list_t **head, const char *str)
 	
 	temp->next = new;
 
-	return (new);;
+	return (new);
 }
