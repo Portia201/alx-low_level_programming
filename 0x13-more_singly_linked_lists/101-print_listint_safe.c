@@ -3,7 +3,6 @@
 /**
  *  print_listint_safe - prints all the elements of a linked list
  *  @head: head of the list
- *
  *  Return: the number of nodes
  */
 size_t print_listint_safe(const listint_t *head)
@@ -20,7 +19,7 @@ size_t print_listint_safe(const listint_t *head)
 			head = head->next;
 		else
 		{
-			printf("[%p] %d\n", (void *)head->next, head->next->n);
+			printf("->[%p] %d\n", (void *)head->next, head->next->n);
 			break;
 		}
 	}
